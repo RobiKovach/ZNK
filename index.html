@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZNK</title>
+	<link rel="stylesheet" href="acess/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<div class="headerTop">
+			<a href="#"><img src="img/logo.png"></a>
+			<div class="nav">
+				<li><a href="#company">О компании</a></li>
+				<li><a href="#toplivo">Топливо</a></li>
+				<li><a href="#delivery">Доставка</a></li>
+				<li><a href="#contact">Контакты</a></li>
+			</div>
+			<div class="hRight">
+				<a href="tel:+380975498425">(097) 549-84-25</a>
+				<div class="dropdown">
+  					<button onclick="myFunction()" class="dropbtn">Ru<img src="img/bi_chevron-down.png"></button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<div class="blockDropdown">
+    						<a href="#" onClick="changeActive(0);">Ru</a>
+    						<a href="#" onClick="changeActive(1);">Ua</a>
+    					</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+		<div class="headerTopPhone">
+			<div class="hamburger-menu">
+  <input id="menu__toggle" type="checkbox" />
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+  <ul class="menu__box">
+    <li><a class="menu__item" href="#company">О компании</a></li>
+    <li><a class="menu__item" href="#toplivo">Топливо</a></li>
+    <li><a class="menu__item" href="#delivery">Доставка</a></li>
+    <li><a class="menu__item" href="#contact">Контакты</a></li>
+  </ul>
+</div>
+		</div>
+		<div class="headerBot">
+			<h1>Запорожская Нефтегазовая <span>компания</span></h1>
+			<p>Оптовая торговля топливом</p>
+			<a href="#contact">Связаться с нами</a>
+		</div>
+		<img class="benzovoz" src="img/benzovoz.png">
+		<div class="social">
+			<a href="#"><img class="insta" src="img/insta.png"></a>
+			<a href="#"><img class="faceboock" src="img/facebook.png"></a>
+		</div>
+		
+	</header>
+	<div class="arrow">
+			<a href="#company"><img src="img/expand-button.png"></a>
+		</div>
+	<section>
+		<div class="companyWrap">
+			<div class="imageBox">
+			<img src="img/company.png">
+		</div>
+		<div id="company" class="companyText">
+			<h2>О компании</h2>
+			<p><span class="orange">ООО «Запорожская Нефтегазовая Компания»</span>  является одним из крупнейших оптовых поставщиков топлива в Запорожской области. Мы предлагаем своим клиентам высококачественное топливо, соответствующее действующим украинском и европейским стандартам. В ассортименте - бензин и различные сорта дизельного топлива по доступной цене. 
+Мы сотрудничаем непосредственно с производителями горючего и можем устанавливать низкие оптовые цены на свою продукцию.</p>
+			<img class="smartImg" src="img/Vector%20Smart%20Object.png">
+		</div>
+
+		</div>
+
+		<div class="arrow">
+			<a href="#toplivo"><img src="img/expand-button.png"></a>
+		</div>
+	</section>
+		<div id="toplivo" class="oilWrap">
+			<h2>Топливо</h2>
+		<p><span class="orange">Цена 1 л топлива</span> зависит от размера заказываемой партии, для постоянных покупателей предусмотрены дополнительные скидки. 
+При заключении договора о долгосрочном сотрудничестве 
+проводится обслуживание на льготных условиях.</p>
+		</div>
+		<div class="btnWrap">
+			<button>Топливо дизельное - Евро 5 / Зима</button>
+			<img src="img/filter.png"class="filter">
+			<button>Топливо бензин - А - 95 / Евро 5</button>
+		</div>
+		<div class="arrow">
+			<a href="#delivery"><img src="img/expand-button.png"></a>
+		</div>
+
+		<div id="delivery" class="delivery">
+			<h2>Доставка</h2>
+		</div>
+
+		<div class="warning">
+			<p><span class="orange">В наличии предприятия</span> есть собственный автотранспорт 
+для перевозки ГСМ:  Согласно последним изменениям в законодательстве Украины вывоз топлива из территории нефтебазе осуществляется автомобилем зарегистрированного передвижной
+акцизный склад. Стоимость доставки ГСМ согласуется отдельно с каждым клиентом.</p>
+		</div>
+
+		<div class="contactWrap">
+			<h2 id="contact">Свяжитесь <span class="orange">с нами</span></h2>
+			<div class="contactForm">
+				<div class="formWrap">
+
+
+  
+					<form class="form">
+					<div class="inputBox">
+						<div class="inputItem">
+							<input type="text" name="mfbName" placeholder="Имя"/>
+							<input type="text" name="mfbMail" placeholder="Телефон"/>
+							<input type="text" name="mfbPhone" placeholder="Email"/>
+						</div>
+						<div class="textareaItem">
+							<textarea name="mfbMessage" id="" cols="20" rows="10" placeholder="Сообщение"></textarea>
+						</div>
+					</div>
+					<input type="submit"value="Отправить" />
+				</form>
+
+				<div class="info">
+					<p><a href="tel:+380975498425">(097) 549-84-25</a></p>
+					<p><a href="mailto:tov_znk@ukr.net">tov_znk@ukr.net</a></p>
+					<p>Ukraine, Zaporizhzhia</p>
+					<p>Ул. Бульвар гвардейский 141</p>
+				</div>
+				</div>
+
+			</div>
+		</div>
+		<footer>
+			<a href="#"><img src="img/logo.png"></a>
+			<p> © ZNK 2021. All Rights Reserved</p>
+			<p>Разработка Black-pearl.group</p>
+		</footer>
+	
+</body>
+<script src="acess/js.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="acess/custom.js"></script>
+<script src="acess/mask.js"></script>
+</html>
